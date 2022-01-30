@@ -22,10 +22,6 @@ std::vector < std::map <float, float> > lectures() {
 		std::cout << "Enter Credit for a lecture: " << std::endl; std::cin >> waga;
 		std::cout << "Enter Grade for a lecture: " << std::endl; std::cin >> ocena;
 		grades[i].insert(std::pair<float, float>(waga, ocena));
-		//option for cout map
-		//for (const auto& j : grades[i]) {
-		//	std::cout << j.first; std::cout << j.second;
-		//}
 	};
 	return grades;
 }
